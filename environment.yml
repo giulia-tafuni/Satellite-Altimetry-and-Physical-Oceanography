@@ -9,13 +9,15 @@ dependencies:
   - numpy
   - pandas
   - scipy
-  - matplotlib
-  - xarray
   - netcdf4
-  - dask
-  - distributed
+  - xarray
   - cartopy
   - shapely
   - pyproj
-  - requests
-  - pyyaml
+  - cmocean
+  - gsw      
+  - seawater
+  - matplotlib
+  - bokeh
+  - dask
+  - pyarrow
