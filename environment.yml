@@ -21,3 +21,5 @@ dependencies:
   - bokeh
   - dask
   - pyarrow
+  - plotly
+  - ipywidget
