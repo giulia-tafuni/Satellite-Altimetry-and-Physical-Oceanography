@@ -1,6 +1,7 @@
 name: class_env
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   - python=3.14
   - pip
@@ -15,12 +16,13 @@ dependencies:
   - shapely
   - pyproj
   - cmocean
-  - gsw      
+  - gsw
   - seawater
   - matplotlib
   - bokeh
   - dask
   - pyarrow
   - plotly
-  - ipywidget
+  - ipywidgets
   - rasterio
+  - copernicusmarine
