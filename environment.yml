@@ -1,28 +1,31 @@
 name: class_env
 channels:
   - conda-forge
-  - nodefaults
 dependencies:
-  - python=3.14
-  - pip
+  - python
   - jupyterlab
-  - ipykernel
+  - ipywidgets
   - numpy
   - pandas
   - scipy
-  - netcdf4
+  - dask
   - xarray
-  - cartopy
-  - shapely
+  - netcdf4
+  - h5netcdf
+  - zarr
+  - rasterio
   - pyproj
-  - cmocean
+  - shapely
+  - pystac
+  - copernicusmarine
   - gsw
   - seawater
   - matplotlib
-  - bokeh
-  - dask
-  - pyarrow
   - plotly
-  - ipywidgets
-  - rasterio
-  - copernicusmarine
+  - cartopy
+  - cmocean
+  - boto3
+  - fsspec
+  - pyarrow
+  - tqdm
+  - requests
