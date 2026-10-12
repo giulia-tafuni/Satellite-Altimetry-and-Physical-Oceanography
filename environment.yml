@@ -1,9 +1,11 @@
 name: class_env
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
-  - python
+  - python=3.11
   - jupyterlab
+  - ipykernel
   - ipywidgets
   - numpy
   - pandas
@@ -14,10 +16,11 @@ dependencies:
   - h5netcdf
   - zarr
   - rasterio
+  - rioxarray
   - pyproj
   - shapely
   - pystac
-  - copernicusmarine
+  - copernicusmarine>=2.0
   - gsw
   - seawater
   - matplotlib
@@ -29,3 +32,4 @@ dependencies:
   - pyarrow
   - tqdm
   - requests
+  - git-lfs
