@@ -1,41 +1,0 @@
-Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
-Solving environment: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
-
-## Package Plan ##
-
-  environment location: C:\Users\Utente\anaconda3
-
-  added / updated specs:
-    - conda
-    - conda-libmamba-solver
-    - libmambapy
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    openssl-3.6.5              |       hf411b9b_0         9.0 MB  conda-forge
-    ------------------------------------------------------------
-                                           Total:         9.0 MB
-
-The following packages will be UPDATED:
-
-  openssl               pkgs/main::openssl-3.5.9-hbb43b14_0 --> conda-forge::openssl-3.6.5-hf411b9b_0 
-
-The following packages will be SUPERSEDED by a higher-priority channel:
-
-  ca-certificates    pkgs/main/win-64::ca-certificates-202~ --> conda-forge/noarch::ca-certificates-2026.7.22-h4c7d964_0 
-  certifi            pkgs/main/win-64::certifi-2026.7.22-p~ --> conda-forge/noarch::certifi-2026.7.22-pyhd8ed1ab_0 
-
-
-
-Downloading and Extracting Packages: ...working...openssl-3.6.5        | 9.0 MB    |            |   0% openssl-3.6.5        | 9.0 MB    |            |   1% openssl-3.6.5        | 9.0 MB    | #6         |  16% openssl-3.6.5        | 9.0 MB    | ######2    |  62% openssl-3.6.5        | 9.0 MB    | ########## | 100% openssl-3.6.5        | 9.0 MB    | ########## | 100% openssl-3.6.5        | 9.0 MB    | ########## | 100%                                                       done
-Preparing transaction: / done
-Verifying transaction: \ done
-Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ done
-"You seem to have a system wide installation of MSMPI. "
-"Due to the way DLL loading works on windows, system wide installation "
-"will probably overshadow the conda installation. Uninstalling "
-"the system wide installation and forced deleting C:\Windows\System32\msmpi*.dll"
-"will help, but may break other software using the system wide installation."
